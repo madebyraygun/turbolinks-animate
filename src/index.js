@@ -101,7 +101,7 @@ window.TurbolinksAnimate = window.TurbolinksAnimate || new function() {
         TurbolinksAnimate.disappear();
       });
       window.addEventListener('popstate', () => {
-        TurbolinksAnimate.disappear();
+//         TurbolinksAnimate.disappear();
       });
       let ignoreBeforeunload = false;
       document.querySelectorAll('a[href^=mailto]').forEach((element) => element.addEventListener('click', () => ignoreBeforeunload = true));
